@@ -1,9 +1,10 @@
 class bike:
-    def __bike_info__(self,name,modle):
+    def __init__(self,name,modle):
         self.name=name
         self.modle=modle
 M1=bike("rani",250)
 M2=bike("ladoo",650)
-print(M1.name)
+print(M1.name,M1.modle)
+print(M2.name,M2.modle)
 
         
